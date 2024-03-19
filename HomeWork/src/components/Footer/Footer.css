@@ -1,0 +1,81 @@
+.footer {
+    margin-top: 100px;
+}
+
+.fter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ft1>h2,
+.ft2>h2,
+.ft3>h2,
+.ft4>h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: inherit;
+}
+
+.ft1>p {
+    max-width: 430px;
+    margin-top: 30px;
+    font-size: 17px;
+    color: rgb(139, 138, 138);
+}
+
+.iconn {
+    margin-top: 20px;
+    display: flex;
+}
+
+.ic1,
+.ic2,
+.ic3,
+.ic4 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgb(245, 245, 245);
+    text-align: center;
+    line-height: 300%;
+    margin-left: 5px;
+}
+
+.ic1:hover,
+.ic2:hover,
+.ic3:hover,
+.ic4:hover {
+    background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+    color: white;
+    cursor: grab;
+}
+
+.ft2>h2 {
+    margin-bottom: 30px;
+}
+
+.ft2>p {
+    margin-bottom: 10px;
+}
+
+.ft2>p>a {
+    text-decoration: none;
+    color: black;
+}
+
+.ffter {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ffter>span,
+.ffter>p,
+.ffter>i {
+    font-size: 17px;
+    color: rgb(164, 164, 164);
+}
+
+.ffter>p>b {
+    color: black;
+}
