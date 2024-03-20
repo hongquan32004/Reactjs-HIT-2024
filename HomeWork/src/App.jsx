@@ -10,8 +10,7 @@ function App() {
 
   return (
     <>
-      <Table></Table>
-      <Button></Button>
+
 
     </>
   )
