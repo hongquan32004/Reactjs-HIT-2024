@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <Header></Header>
+      <h1>Trần Hồng Quân</h1>
       <Herosection></Herosection>
       <Endhero></Endhero>
       <Footer></Footer>
