@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Endhero></Endhero>
       <Herosection></Herosection>
+      <Endhero></Endhero>
       <Footer></Footer>
 
     </>
