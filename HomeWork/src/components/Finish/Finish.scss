@@ -1,0 +1,21 @@
+.footer-page {
+    width: 100%;
+    background: linear-gradient(to right bottom, rgb(120, 127, 246), rgb(123, 213, 245));
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 250%;
+    font-size: 20px;
+
+    span {
+        text-decoration: underline;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 15px;
+        line-height: 350%;
+
+    }
+
+}
