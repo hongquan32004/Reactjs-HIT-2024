@@ -1,51 +1,55 @@
 .endhr {
     margin-top: 150px;
-}
 
-.etext {
-    text-align: center;
-    font-size: 30px;
-}
+    .etext {
+        text-align: center;
+        font-size: 30px;
 
-.etext>h1 {
-    font-weight: 700;
-    background: linear-gradient(-45deg, #3db3c5, #274685);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+        &>h1 {
+            font-weight: 700;
+            background: linear-gradient(-45deg, #3db3c5, #274685);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
 
-.content {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-}
+    }
 
-.ct1 {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: linear-gradient(-45deg, #3b87bd, #2d71a2);
-    text-align: center;
-    line-height: 670%;
-    margin: auto;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-}
+    .content {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
 
-.ct1>i {
-    font-size: 35px;
-    color: white;
-}
+        .ct {
+            .ct1 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+                text-align: center;
+                line-height: 670%;
+                margin: auto;
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
 
-.ct>h2 {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 25px;
-    font-weight: 600;
-}
+                &>i {
+                    font-size: 35px;
+                    color: white;
+                }
+            }
 
-.ct>p {
-    margin-top: 10px;
-    font-size: 17px;
-    text-align: center;
-    color: rgb(171, 171, 171);
+            &>h2 {
+                text-align: center;
+                margin-top: 30px;
+                font-size: 25px;
+                font-weight: 600;
+            }
+
+            &>p {
+                margin-top: 10px;
+                font-size: 17px;
+                text-align: center;
+                color: rgb(171, 171, 171);
+            }
+
+        }
+    }
 }
