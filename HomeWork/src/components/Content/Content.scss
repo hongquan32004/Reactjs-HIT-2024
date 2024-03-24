@@ -150,8 +150,12 @@
         }
 
         .information {
+            flex-direction: column;
 
-            &>.profile {}
+
+            &>.profile {
+                
+            }
         }
     }
 
