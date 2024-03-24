@@ -1,4 +1,4 @@
-import './Endhero.css'
+import './Endhero.scss'
 const eh = () => {
     return (
         <div className="endhr">

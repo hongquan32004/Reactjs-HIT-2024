@@ -1,4 +1,4 @@
-import './Herosection.css'
+import './Herosection.scss'
 const herosection = () => {
     return (
         <div className='herosection'>
