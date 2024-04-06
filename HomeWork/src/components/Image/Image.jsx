@@ -7,7 +7,7 @@ const Image = () => {
     const [page, setPage] = useState(1);
 
     useEffect(() => {
-        const api = 'https://picsum.photos/v2/list?page=${page}&limit=8'
+        const api = `https://picsum.photos/v2/list?page=${page}&limit=8`;
         const featchData = async () => {
             const response = await axios.get(api);
             if (page > 1) {
@@ -36,7 +36,7 @@ const Image = () => {
                 ))}
             </div>
             <div className='button'><button onClick={loadMore}>More</button></div>
-            
+
         </div>
     )
 }
