@@ -2,15 +2,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.scss'
-import './scss/index.scss'
-import Image from './components/Image/Image'
+import './scss/_index.scss'
+import Todoapp from './component/Todoapp/Todoapp'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <Image></Image>
+      <div className="back-ground">
+        <Todoapp></Todoapp>
+      </div>
+
     </>
   )
 }
